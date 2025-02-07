@@ -1,4 +1,3 @@
-import './App.css';
 import { FaAppleWhole } from "react-icons/fa6";
 import apple from "./assets/apple.png";
 import lemon from "./assets/lemon.png";
