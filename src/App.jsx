@@ -7,7 +7,7 @@ import { GiCutLemon } from "react-icons/gi";
 import { GiStrawberry } from "react-icons/gi";
 import { PiOrangeFill } from "react-icons/pi";
 import Card from './components/Card';
-import { useState,useRef, useLayoutEffect } from 'react';
+import { useState, useRef, useLayoutEffect } from 'react';
 import gsap from 'gsap';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
       bgCardColor: "bg-[#fdff8f]",
       bgColor: "#f7e35b",
       textColor: "text-[#85822d]",
-      icon: <GiCutLemon color='black'/>,
+      icon: <GiCutLemon color='black' />,
       img: lemon,
       bgImg: lemon,
     },
@@ -65,19 +65,19 @@ function App() {
           duration: 2,
           ease: "linear",
         });
-        gsap.to(".img",{
-          top:"-140px",
-          delay:0.7,
-          duration:1,
+        gsap.to(".img", {
+          top: "-140px",
+          delay: 0.7,
+          duration: 1,
         })
       }
     });
-  
+
     return () => ctx.revert();
   }, [selected]);
-  
-  const addToRef = (el) =>{
-    if(el && !cardsRef.current.includes(el)){
+
+  const addToRef = (el) => {
+    if (el && !cardsRef.current.includes(el)) {
       cardsRef.current.push(el)
     }
   }
@@ -86,12 +86,12 @@ function App() {
       {cards.map((card, key) => {
         return (
           <div
-            ref = {addToRef}
+            ref={addToRef}
             key={key}
             className={`card-${key} ${key === selected ? "w-[500px]" : "w-20"} 
               h-96 cursor-pointer transition-all ease-in-out duration-[1000ms]`}
             onClick={() => handleClick(key)}>
-            <Card card={card} selected={selected} index={key}/>
+            <Card card={card} selected={selected} index={key} />
           </div>
         )
       })}
