@@ -28,5 +28,4 @@ const Card = ({ card, index, selected }) => {
     </>
   )
 }
-
 export default Card
