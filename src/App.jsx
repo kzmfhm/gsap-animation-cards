@@ -15,6 +15,7 @@ function App() {
   const cardsRef = useRef([])
   const bg = useRef()
   cardsRef.current = []
+  
   const cards = [
     {
       title: "APPLE",
