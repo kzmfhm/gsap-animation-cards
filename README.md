@@ -9,5 +9,5 @@ Currently, two official plugins are available:
 
 # Support
 
-Give ⭐ if this project animation inspire you!
+Give ⭐ if this project inspire you!
 
