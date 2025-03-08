@@ -6,12 +6,12 @@ const Card = ({ card, index, selected }) => {
       {index === selected && (
         <div className="absolute w-screen h-screen top-0 left-0 flex justify-between">
           <div className="flex flex-col justify-around">
-            <img className="w-40 rotate-12" src={card.bgImg}/>
-            <img className="w-72 rotate-45" src={card.bgImg}/>
+            <img className="w-40 rotate-12" src={card.bgImg} />
+            <img className="w-72 rotate-45" src={card.bgImg} />
           </div>
           <div className="flex flex-col justify-around">
-            <img className="w-36 rotate-[-90deg]" src={card.bgImg}/>
-            <img className="w-64 rotate-90" src={card.bgImg}/>
+            <img className="w-36 rotate-[-90deg]" src={card.bgImg} />
+            <img className="w-64 rotate-90" src={card.bgImg} />
           </div>
         </div>
       )}
@@ -23,7 +23,7 @@ const Card = ({ card, index, selected }) => {
             {card.title}</h1>
         </div>
         <img src={card.img} alt=""
-          className={`img z-1 ${selected === index ? "opacity-100" : "opacity-0"} w-60 absolute top-0`}/>
+          className={`img z-1 ${selected === index ? "opacity-100" : "opacity-0"} w-60 absolute top-0`} />
       </div>
     </>
   )
