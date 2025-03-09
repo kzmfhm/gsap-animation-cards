@@ -31,7 +31,7 @@ function App() {
       bgCardColor: "bg-[#fdff8f]",
       bgColor: "#f7e35b",
       textColor: "text-[#85822d]",
-      icon: <GiCutLemon color='black' />,
+      icon: <GiCutLemon color='black'/>,
       img: lemon,
       bgImg: lemon,
     },
