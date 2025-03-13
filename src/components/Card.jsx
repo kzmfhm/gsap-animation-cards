@@ -22,7 +22,7 @@ const Card = ({ card, index, selected }) => {
           ${selected === index ? "rotate-0 text-[6rem]" : "text-[2rem] rotate-90"} transition-all ease-in duration-[1000ms] font-bold`}>
             {card.title}</h1>
         </div>
-        <img src={card.img} alt=""
+        <img src={card.img}
           className={`img z-1 ${selected === index ? "opacity-100" : "opacity-0"} w-60 absolute top-0`} />
       </div>
     </>
