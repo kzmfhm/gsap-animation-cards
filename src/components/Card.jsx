@@ -18,7 +18,8 @@ const Card = ({ card, index, selected }) => {
       <div className='h-full relative'>
         <div className={`${card.bgCardColor} h-full rounded-xl flex items-center justify-center z-10 relative`}>
           <span 
-            className='text-white text-[1.5rem] absolute top-5 left-5'>{card.icon}
+            className='text-white text-[1.5rem] absolute top-5 left-5'>
+              {card.icon}
           </span>
           <h1 className={`${card.textColor} 
           ${selected === index ? "rotate-0 text-[6rem]" : "text-[2rem] rotate-90"} transition-all ease-in duration-[1000ms] font-bold`}>
