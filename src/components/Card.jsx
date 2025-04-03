@@ -10,8 +10,8 @@ const Card = ({ card, index, selected }) => {
             <img className="w-72 rotate-45" src={card.bgImg}/>
           </div>
           <div className="flex flex-col justify-around">
-            <img className="w-36 rotate-[-90deg]" src={card.bgImg} />
-            <img className="w-64 rotate-90" src={card.bgImg} />
+            <img className="w-36 rotate-[-90deg]" src={card.bgImg}/>
+            <img className="w-64 rotate-90" src={card.bgImg}/>
           </div>
         </div>
       )}
