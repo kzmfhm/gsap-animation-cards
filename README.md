@@ -1,4 +1,4 @@
-# React + Vite + GSAP
+# React + Vite + GSAP + Animation
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
