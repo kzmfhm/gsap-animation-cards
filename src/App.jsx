@@ -82,7 +82,7 @@ function App() {
     }
   }
   return (
-    <div ref={bg} className="h-screen items-center flex justify-center">
+    <div ref={bg} className="h-screen items-center flex justify-center overflow-hidden">
       {cards.map((card, key) => {
         return (
           <div
