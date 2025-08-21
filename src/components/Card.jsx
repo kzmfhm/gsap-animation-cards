@@ -1,5 +1,4 @@
 
-
 const Card = ({ card, index, selected }) => {
   return (
     <>
@@ -33,3 +32,4 @@ const Card = ({ card, index, selected }) => {
   )
 }
 export default Card
+
