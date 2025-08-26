@@ -1,4 +1,4 @@
-# React + Vite + GSAP + Animation
+## Vite + GSAP + Animation
 
 
 
